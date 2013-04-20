@@ -1,0 +1,35 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           configuracion
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          configuracion
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+
+    config:
+      actions:
+      fields:
+        cantItemsFrontEnd: { label: Items Front }
+        cantItemsBackEnd: { label: Items Back }
+        updated_at: { label: Ultima actualizacion }
+        created_at: { label: Creado }
+        cantItems: { label: Items }
+        mensajeerror: { label: Mensaje de error }
+      list:
+        title:   Configuracion del Sistema
+        actions: {}
+        batch_actions: {}
+        object_actions:
+              _edit:   ~
+      filter:
+        class: false
+      form:    ~
+      edit:
+        title: Edicion del Sistema
+      new: ~

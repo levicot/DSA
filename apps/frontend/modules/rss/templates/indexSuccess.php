@@ -1,0 +1,1 @@
+<?phpdecorate_with(false);echo $feedPodcast->asXml(ESC_RAW);?>

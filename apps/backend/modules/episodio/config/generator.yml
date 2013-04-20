@@ -1,0 +1,26 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           episodio
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          episodio
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        id_podcast: { label: Pertenece }
+        created_at: { label: Creado }
+        updated_at: { label: Ultima actualizacion }
+      list:
+        title: Listado de episodios
+      filter:
+        class: false
+      form:    ~
+      edit:    ~
+      new:     ~

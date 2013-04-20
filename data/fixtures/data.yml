@@ -1,0 +1,166 @@
+podcast:
+  podcast_1:
+    nombre: 'primer podcast'
+    descripcion: 'suerte podcast'
+    imagen: 1cc4efe2cec0d2c3236416173735b14d758a2210.jpg
+    rss: www.google.com
+    habilitado: true
+    idUsuario: '1'
+    idCategoria: '1'
+    created_at: '2011-11-26 17:28:19'
+    updated_at: '2011-11-28 13:59:44'
+  podcast_2:
+    nombre: 'segundo post'
+    descripcion: 'segundo podcast'
+    imagen: d63cb95edc150fdc5597ff8f47436e4f1c883706.jpg
+    rss: www.google.com
+    habilitado: true
+    idUsuario: '1'
+    idCategoria: '2'
+    created_at: '2011-11-26 18:52:15'
+    updated_at: '2011-11-26 18:52:15'
+  podcast_4:
+    nombre: prueba
+    descripcion: prueba
+    imagen: 86539c5269c6c8b4b45151362fbd472b7b835d8f.jpg
+    rss: prueba.com
+    habilitado: true
+    idUsuario: '2'
+    idCategoria: '1'
+    created_at: '2011-11-27 12:51:53'
+    updated_at: '2011-11-27 12:51:53'
+  podcast_5:
+    nombre: 'probando un super podcast'
+    descripcion: www.luchini.com
+    imagen: 62fcb7543a72f17433f3b89a4fbff82a72e0eb00.jpg
+    rss: www.luchini.com
+    habilitado: true
+    idUsuario: '1'
+    idCategoria: '1'
+    created_at: '2011-11-29 14:51:36'
+    updated_at: '2011-11-29 14:51:36'
+configuracion:
+  configuracion_1:
+    titulo: Proyecto
+    cantItemsFrontEnd: '2'
+    cantItemsBackEnd: '2'
+    estilo: '1'
+    habilitado: true
+    mensajeerror: 'Pagina en construccion'
+    created_at: '2011-11-25 17:57:00'
+    updated_at: '2011-11-25 16:08:22'
+episodio:
+  episodio_1:
+    titulo: 'episodio 1'
+    descripcion: dasdasda
+    audio_ogg: e017f2f820647a84c93c5b816f8c878cf68a1e4b.ogg
+    audio_mp3: 1.mp3
+    id_podcast: '1'
+    created_at: '2011-11-27 16:51:30'
+    updated_at: '2011-11-28 13:34:48'
+  episodio_2:
+    titulo: ep1
+    descripcion: 'episodio 1'
+    audio_ogg: 564c87f4103f6f87782cac18e8eb333884267d9c.ogg
+    audio_mp3: 2.mp3
+    id_podcast: '4'
+    created_at: '2011-11-28 13:18:23'
+    updated_at: '2011-11-28 13:33:58'
+  episodio_3:
+    titulo: ep2
+    descripcion: 'episodio 2'
+    audio_ogg: d242746aa73fe409cbcad2fa8d07308a50fb301d.ogg
+    audio_mp3: 3.mp3
+    id_podcast: '4'
+    created_at: '2011-11-28 13:27:11'
+    updated_at: '2011-11-28 13:34:18'
+categoria:
+  categoria_1:
+    nombre: Accion
+    created_at: '2011-11-25 16:44:45'
+    updated_at: '2011-11-25 16:44:45'
+  categoria_2:
+    nombre: Policial
+    created_at: '2011-11-25 16:44:51'
+    updated_at: '2011-11-25 16:44:51'
+  categoria_3:
+    nombre: Deporte
+    created_at: '2011-11-26 17:35:21'
+    updated_at: '2011-11-27 10:35:21'
+  categoria_4:
+    nombre: Terror
+    created_at: '2011-11-26 18:46:56'
+    updated_at: '2011-11-26 18:46:56'
+  categoria_5:
+    nombre: Suspenso
+    created_at: '2011-11-27 10:35:38'
+    updated_at: '2011-11-27 10:35:38'
+  categoria_6:
+    nombre: Drama
+    created_at: '2011-11-27 10:35:43'
+    updated_at: '2011-11-27 10:35:43'
+  categoria_7:
+    nombre: Comedia
+    created_at: '2011-11-27 10:35:50'
+    updated_at: '2011-11-27 10:35:50'
+  categoria_8:
+    nombre: 'Comedia Dramatica'
+    created_at: '2011-11-27 10:35:58'
+    updated_at: '2011-11-27 10:35:58'
+  categoria_9:
+    nombre: 'Ciencia ficcion'
+    created_at: '2011-11-27 10:36:05'
+    updated_at: '2011-11-27 10:36:05'
+sfGuardUser:
+  sfGuardUser_1:
+    first_name: 'Joaquin Pablo'
+    last_name: Gonzalez
+    email_address: jpgonzalezra@hotmail.com
+    username: joa
+    algorithm: sha1
+    salt: cb8ea617e2ee258dac6bff484475feae
+    password: b89cd9e12d6f41ff83403ea81905295a14f5994d
+    is_active: true
+    is_super_admin: true
+    last_login: '2011-12-01 16:06:28'
+    created_at: '2011-11-25 15:59:43'
+    updated_at: '2013-04-20 18:18:50'
+  sfGuardUser_2:
+    first_name: Agustin
+    last_name: 'D''atri'
+    email_address: agus@hotmail.com
+    username: da3
+    algorithm: sha1
+    salt: 7bb59a4e90d666227ee39e61b5275af9
+    password: 9dc4035768e1dccf6a44454fa21708d9f0df7241
+    is_active: true
+    is_super_admin: false
+    last_login: '2011-11-29 14:20:51'
+    created_at: '2011-11-26 17:45:42'
+    updated_at: '2011-11-29 14:20:51'
+  sfGuardUser_3:
+    first_name: prueba2
+    last_name: prueba2
+    email_address: prueba2@gmail.com
+    username: prueba2
+    algorithm: sha1
+    salt: 5de1fa762b6cc6016cc8d2a02b82e852
+    password: 180f880acc00b34b0bb941341f21c8c3a11400f6
+    is_active: true
+    is_super_admin: true
+    last_login: '2011-11-27 14:15:51'
+    created_at: '2011-11-27 14:14:30'
+    updated_at: '2011-11-27 14:15:51'
+  sfGuardUser_4:
+    first_name: prueba
+    last_name: prueba
+    email_address: prueba@gmail.com
+    username: prueba
+    algorithm: sha1
+    salt: bce8d7621d6b656dc23feda6004947a1
+    password: bf09e4fb7be98770fdfc9722c889a28c72115ad2
+    is_active: true
+    is_super_admin: false
+    last_login: '2011-11-29 14:52:52'
+    created_at: '2011-11-27 14:16:16'
+    updated_at: '2011-11-29 14:52:52'

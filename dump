@@ -1,0 +1,30 @@
+INSERT INTO `configuracion` (`id`, `titulo`, `cantitemsfrontend`, `cantitemsbackend`, `estilo`, `habilitado`, `mensajeerror`, `created_at`, `updated_at`) VALUES
+(1, 'Proyecto', 2, 2, '1', 1, 'Pagina en construccion', '2011-11-25 17:57:00', '2011-11-25 16:08:22');
+
+INSERT INTO `sf_guard_user` (`id`, `first_name`, `last_name`, `email_address`, `username`, `algorithm`, `salt`, `password`, `is_active`, `is_super_admin`, `last_login`, `created_at`, `updated_at`) VALUES
+(1, 'Joaquin Pablo', 'Gonzalez', 'jpgonzalezra@hotmail.com', 'joa', 'sha1', 'cb8ea617e2ee258dac6bff484475feae', '08eec3d78b9702566115555d35405d413b644508', 1, 1, '2011-12-01 16:06:28', '2011-11-25 15:59:43', '2011-12-01 16:06:28'),
+(2, 'Agustin', 'D''atri', 'agus@hotmail.com', 'da3', 'sha1', '7bb59a4e90d666227ee39e61b5275af9', '9dc4035768e1dccf6a44454fa21708d9f0df7241', 1, 0, '2011-11-29 14:20:51', '2011-11-26 17:45:42', '2011-11-29 14:20:51'),
+(3, 'prueba2', 'prueba2', 'prueba2@gmail.com', 'prueba2', 'sha1', '5de1fa762b6cc6016cc8d2a02b82e852', '180f880acc00b34b0bb941341f21c8c3a11400f6', 1, 1, '2011-11-27 14:15:51', '2011-11-27 14:14:30', '2011-11-27 14:15:51'),
+(4, 'prueba', 'prueba', 'prueba@gmail.com', 'prueba', 'sha1', 'bce8d7621d6b656dc23feda6004947a1', 'bf09e4fb7be98770fdfc9722c889a28c72115ad2', 1, 0, '2011-11-29 14:52:52', '2011-11-27 14:16:16', '2011-11-29 14:52:52');
+
+INSERT INTO `episodio` (`id`, `titulo`, `descripcion`, `audio_ogg`, `id_podcast`, `created_at`, `updated_at`) VALUES
+(1, 'episodio 1', 'dasdasda', 'e017f2f820647a84c93c5b816f8c878cf68a1e4b.ogg', 1, '2011-11-27 16:51:30', '2011-11-28 13:34:48'),
+(2, 'ep1', 'episodio 1', '564c87f4103f6f87782cac18e8eb333884267d9c.ogg', 4, '2011-11-28 13:18:23', '2011-11-28 13:33:58'),
+(3, 'ep2', 'episodio 2', 'd242746aa73fe409cbcad2fa8d07308a50fb301d.ogg', 4, '2011-11-28 13:27:11', '2011-11-28 13:34:18');
+
+INSERT INTO `categoria` (`id`, `nombre`, `created_at`, `updated_at`) VALUES
+(1, 'Accion', '2011-11-25 16:44:45', '2011-11-25 16:44:45'),
+(2, 'Policial', '2011-11-25 16:44:51', '2011-11-25 16:44:51'),
+(3, 'Deporte', '2011-11-26 17:35:21', '2011-11-27 10:35:21'),
+(4, 'Terror', '2011-11-26 18:46:56', '2011-11-26 18:46:56'),
+(5, 'Suspenso', '2011-11-27 10:35:38', '2011-11-27 10:35:38'),
+(6, 'Drama', '2011-11-27 10:35:43', '2011-11-27 10:35:43'),
+(7, 'Comedia', '2011-11-27 10:35:50', '2011-11-27 10:35:50'),
+(8, 'Comedia Dramatica', '2011-11-27 10:35:58', '2011-11-27 10:35:58'),
+(9, 'Ciencia ficcion', '2011-11-27 10:36:05', '2011-11-27 10:36:05');
+
+INSERT INTO `podcast` (`id`, `nombre`, `descripcion`,`imagen`, `rss`, `habilitado`, `idusuario`, `idcategoria`, `created_at`, `updated_at`) VALUES
+(1, 'primer podcast', 'suerte podcast',  '1cc4efe2cec0d2c3236416173735b14d758a2210.jpg', 'www.google.com', 1, 1, 1, '2011-11-26 17:28:19', '2011-11-28 13:59:44'),
+(2, 'segundo post', 'segundo podcast',  'd63cb95edc150fdc5597ff8f47436e4f1c883706.jpg', 'www.google.com', 1, 1, 2, '2011-11-26 18:52:15', '2011-11-26 18:52:15'),
+(4, 'prueba', 'prueba',  '86539c5269c6c8b4b45151362fbd472b7b835d8f.jpg', 'prueba.com', 1, 2, 1, '2011-11-27 12:51:53', '2011-11-27 12:51:53'),
+(5, 'probando un super podcast', 'www.luchini.com', '62fcb7543a72f17433f3b89a4fbff82a72e0eb00.jpg', 'www.luchini.com', 1, 1, 1, '2011-11-29 14:51:36', '2011-11-29 14:51:36'),
